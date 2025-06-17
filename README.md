@@ -118,20 +118,3 @@ The broker listens on `localhost:9092`.  Update `bootstrap_servers` accordingly.
 * **Message schema** – modify the JSON object in `unigap_producer.py` and adapt handling in `unigap_consumer.py`.
 * **Consumer group** – change the `group_id` when instantiating `UnigapConsumer`.
 
----
-
-## 🤝 Contributing
-Pull requests are welcome!  Feel free to open issues for suggestions or bugs.
-
----
-
-## 📖 References
-* [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
-* [kafka-python Library](https://github.com/dpkp/kafka-python)
-* [AKHQ – Kafka Web UI](https://akhq.io/)
-
----
-
-## 📝 License
-
-Distributed under the **Apache 2.0 License**.  See `LICENSE` for more information. 
