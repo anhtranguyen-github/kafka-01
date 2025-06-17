@@ -52,7 +52,7 @@ python kafka-practice/unigap_consumer.py
 
 ### 6. Run the demo scenarios
 ```bash
-python kafka-practice/test_kafka.py
+python kafka-practice/main.py
 ```
 You will see logs illustrating how Kafka distributes messages across consumer instances.
 
