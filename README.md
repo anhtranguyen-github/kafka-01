@@ -55,6 +55,47 @@ python kafka-practice/main.py
 ```
 You will see logs illustrating how Kafka distributes messages across consumer instances.
 
+#### 📋 Sample consumer output
+```text
+2025-06-17 13:37:42,581 - config - INFO - Received message from topic product_view, partition 0, offset 12156021:
+{
+  "_id": "5ecab65178aa7636ca41f58d",
+  "time_stamp": 1749296185,
+  "ip": "66.220.149.12",
+  "user_agent": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+  "resolution": "2000x2000",
+  "user_id_db": "",
+  "device_id": "cb702e6e-e2ef-4fd6-bd21-d96a67dfdd48",
+  "api_version": "1.0",
+  "store_id": "38",
+  "local_time": "2025-06-07 18:36:25",
+  "show_recommendation": null,
+  "current_url": "https://www.glamira.ca/womens-ring-celtic-way.html?fbclid=IwAR0gvlgv1KvCc4DJbwgmaAdIl8UxIRv8P9YS_K8zFSJtcFlDtIkpQ9wEpJw&alloy=white_yellow-585",
+  "referrer_url": "https://www.facebook.com/",
+  "email_address": "",
+  "recommendation": false,
+  "utm_source": false,
+  "utm_medium": false,
+  "collection": "view_product_detail",
+  "product_id": "90476",
+  "option": [
+    {
+      "option_label": "alloy",
+      "option_id": "108219",
+      "value_label": "",
+      "value_id": "791145"
+    },
+    {
+      "option_label": "diamond",
+      "option_id": "",
+      "value_label": "",
+      "value_id": ""
+    }
+  ],
+  "id": "bbafc2a1-16c8-442b-bb2e-03df21059e45"
+}
+```
+
 ---
 
 ## 🧪 Running Kafka Locally (Optional)
