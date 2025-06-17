@@ -2,7 +2,6 @@
 ## 📂 Project Layout
 
 ```text
-.
 ├── kafka-practice/         
 │   ├── config.py            
 │   ├── unigap_producer.py  
