@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Logs and local data
+*.log
+*.out
+*.tmp
+
+# macOS & Linux system files
+.DS_Store
+*~
+
+# IDE / Editor folders
+.idea/
+.vscode/
+
+# pytest
+.pytest_cache/
+
+# Kafka data directories (if you run the broker locally)
+/tmp/kraft-combined-logs/
+
+# dotenv environment files
+.env
+
+# Misc
+*.swp 
